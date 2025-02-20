@@ -1,0 +1,61 @@
+#root {
+  background-image: linear-gradient(40deg,#5e60e7,#f3efff 65% 71.35%,#ffffff);
+  /* background-image: linear-gradient(96deg,#5e60e7,#9c7af2 65% 71.35%,#9c7af2); */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-bottom: 20vh;
+  overflow: hidden;
+}
+
+.presentacion {
+  width: 90vw;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.presentacion img {
+  width: 80%;
+  /* background-image: linear-gradient(170deg,#5e60e7,#f3efff 65% 71.35%,#ffffff); */
+}
+
+.list {
+  position: relative;
+  padding-top: 50px;
+  width: 80vw;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.954);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 5;
+}
+
+.users_list {
+  padding: 10px;
+  overflow-y: scroll;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.product_list {
+  overflow-y: scroll;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.img_hero {
+  position: absolute;
+  left: -150px;
+  bottom: -200px;
+}
