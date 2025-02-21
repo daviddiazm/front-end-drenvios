@@ -1,7 +1,8 @@
 .product-card {
   display: flex;
   align-items: center;
-  width: 400px;
+  width: 80vw;
+  max-width: 400px;
   /* min-width: 400px; */
   padding: 15px;
   border-radius: 8px;
