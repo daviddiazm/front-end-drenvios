@@ -1,0 +1,64 @@
+.user-form {
+  /* max-width: 400px; */
+  /* width: 50vw; */
+  width: 75vw;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.954);
+
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_container {
+  width: 70%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  /* width: 70%; */
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+}
+
+.submit-button {
+  width: 100%;
+  /* width: 70%; */
+  padding: 10px;
+  /* background-color: #646cff; */
+  
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background: linear-gradient( 96deg, rgb(94, 96, 231) 0%, rgb(156, 122, 242) 65%, rgb(156, 122, 242) 71.35% );
+}
+
+.submit-button:hover {
+  background-color: #535bf2;
+}

@@ -10,6 +10,17 @@
   box-shadow: inset 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
+.comprado {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4CAF50;
+  background-color: #e8f5e9;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
 .product-info {
   display: flex;
   flex-direction: column;
@@ -27,6 +38,10 @@
   font-size: 1.2rem;
   color: green;
   margin-bottom: 10px;
+}
+
+.special {
+  text-decoration: line-through;
 }
 
 .product-category,
