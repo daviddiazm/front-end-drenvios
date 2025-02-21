@@ -32,15 +32,6 @@ Frontend
     Material UI – Componentes estilizados para un diseño moderno.
     axios – Cliente HTTP para consumir APIs.
 
-⚙️ Requisitos previos
-
-Antes de comenzar, asegúrate de tener instalados:
-
-📌 Node.js (versión 18 o superior)
-📌 MongoDB (local o en la nube, como MongoDB Atlas)
-📌 npm (incluido con Node.js)
-
-
 🚀 Instalación
 
 Sigue estos pasos para instalar y ejecutar la aplicación en tu entorno local.
