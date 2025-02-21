@@ -51,7 +51,7 @@ const ListPage = () => {
   const handlerFilter = (evetn) => {
     setValue(evetn.target.value)
     const filteredProducts = prodcuts.filter((product) =>{
-      return  product.name.toLowerCase().includes(value.toLowerCase())
+      return  (value ? product.name.toLowerCase().includes(value.toLowerCase()) : true)
     });
     setProductsFiltered(filteredProducts);
   }
