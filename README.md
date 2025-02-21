@@ -1,5 +1,5 @@
 📌 Prueba Técnica - Aplicación con React y Node.js
-![Cotizador](https://cdn.drenvio.com/co/hero/cotizador.webp)
+
 ¡Bienvenido/a! Este repositorio contiene una aplicación full-stack desarrollada con Node.js en el backend y React en el frontend.
 
 🔒 Autenticación segura | 🎨 Diseño moderno y responsive | 🔍 Filtrado de datos dinámico
@@ -49,51 +49,52 @@ Sigue estos pasos para instalar y ejecutar la aplicación en tu entorno local.
 Ejecuta el siguiente comando en la terminal para clonar los repositorios:
 
 # Clonar el backend
-git clone https://github.com/daviddiazm/backend_drenvio.git
+    git clone https://github.com/daviddiazm/backend_drenvio.git
 
 # Clonar el frontend
-git clone https://github.com/daviddiazm/front-end-drenvios.git
+    git clone https://github.com/daviddiazm/front-end-drenvios.git
 
 2️⃣ Configurar el backend
 
 📌 Ubícate en la carpeta del backend
 
-cd backend_drenvio
+    cd backend_drenvio
 
 📌 Instala las dependencias
 
-npm install
+    npm install
 
 📌 Configura las variables de entorno
 
 Crea un archivo .env en la raíz del backend y agrega las siguientes variables:
 
-PORT=3000
-URL_DATABASE=mongodb+srv://drenviochallenge:m1jWly3uw42cBwp6@drenviochallenge.2efc0.mongodb.net
+    PORT=3000
+    URL_DATABASE=mongodb+srv://drenviochallenge:m1jWly3uw42cBwp6@drenviochallenge.2efc0.mongodb.net
 
 📌 Inicia el servidor
 
-npm run dev
+    npm start
+
 
 3️⃣ Configurar el frontend
 
 📌 Ubícate en la carpeta del frontend
 
-cd ../front-end-drenvios
+    cd ../front-end-drenvios
 
 📌 Instala las dependencias
 
-npm install
+    npm install
 
 📌 Configura las variables de entorno
 
 Crea un archivo .env en la raíz del backend y agrega las siguientes variables:
 
-VITE_URL_API=http://localhost:3000
+    VITE_URL_API=http://localhost:3000
 
 📌 Inicia la aplicación
 
-npm start
+    npm run dev
 
 📩 ¡Si tienes preguntas o sugerencias, no dudes en contactarme! 🚀
-📩 davidcol123dm@gmail.com(davidcol123dm@gmail.com)
+📩 davidcol123dm@gmail.com
