@@ -32,15 +32,15 @@ Frontend
     Material UI – Componentes estilizados para un diseño moderno.
     axios – Cliente HTTP para consumir APIs.
 
-🚀 FRONT END
+🌍 FRONT END
 
 El fornt end puede ser usado mediante este link:
 
 
-    https://papaya-stroopwafel-154c58.netlify.app/
+https://papaya-stroopwafel-154c58.netlify.app/
 
 
-pero primero el backend tiene que estar funcionando en local 
+pero primero el backend tiene que estar funcionando en local ‼️
 
 🚀 Instalación
 
